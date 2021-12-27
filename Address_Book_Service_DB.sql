@@ -14,3 +14,6 @@ UC3
 insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email) values('Neeta','Mourya','Dayalband','Bsp','CG',495001,9875235232,'neeta@gmail.com');
 insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email) values('Prakash','kashyap','Dayalband','Bsp','CG',495001,9875235232,'prakash@gmail.com');
 select * from Address_Book;
+
+UC4
+UPDATE Address_Book SET fName = 'Neetu', City= 'BSP' WHERE fName = 'Neeta';
