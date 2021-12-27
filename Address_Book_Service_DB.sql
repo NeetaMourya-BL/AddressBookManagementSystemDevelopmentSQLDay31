@@ -17,3 +17,6 @@ select * from Address_Book;
 
 UC4
 UPDATE Address_Book SET fName = 'Neetu', City= 'BSP' WHERE fName = 'Neeta';
+
+UC5
+DELETE FROM Address_Book WHERE fName='Prakash';

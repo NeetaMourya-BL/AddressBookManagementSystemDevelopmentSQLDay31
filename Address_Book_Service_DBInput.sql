@@ -10,3 +10,4 @@ insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email) v
 insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email) values('Prakash','kashyap','Dayalband','Bsp','CG',495001,9875235232,'prakash@gmail.com');
 select * from Address_Book;
 UPDATE Address_Book SET fName = 'Neetu', City= 'BSP' WHERE fName = 'Neeta';
+DELETE FROM Address_Book WHERE fName='Prakash';
