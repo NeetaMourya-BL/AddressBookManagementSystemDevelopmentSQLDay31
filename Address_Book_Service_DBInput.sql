@@ -17,3 +17,5 @@ SELECT state, LENGTH(state) AS LengthOfName FROM Address_Book;
 SELECT fName from Address_Book ORDER BY city ASC;
 alter table Address_Book add type varchar(10) after email;
 select phoneNumber from Address_Book where type='family';
+insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email,type) values('harshita','banoudha','maihar','maihar','mp',4425512,9851512192,'harshita@gmail.com','friend');
+insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email,type) values('aman','mourya','ceepath','Bsp','CG',495001,9875235232,'aman@gmail.com','family');

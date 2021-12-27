@@ -36,3 +36,6 @@ alter table Address_Book add type varchar(10) after email;
 
 UC10
 select phoneNumber from Address_Book where type='family';
+
+UC11
+insert into Address_Book(fName,lName,address,city,state,zip,phoneNumber,email,type) values('harshita','banoudha','maihar','maihar','mp',4425512,9851512192,'harshita@gmail.com','friend');
