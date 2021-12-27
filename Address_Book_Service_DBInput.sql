@@ -12,3 +12,5 @@ select * from Address_Book;
 UPDATE Address_Book SET fName = 'Neetu', City= 'BSP' WHERE fName = 'Neeta';
 DELETE FROM Address_Book WHERE fName='Prakash';
 select fName from Address_Book where state='CG' and city='BSP';
+SELECT city, LENGTH(city) AS LengthOfName FROM Address_Book;
+SELECT state, LENGTH(state) AS LengthOfName FROM Address_Book;

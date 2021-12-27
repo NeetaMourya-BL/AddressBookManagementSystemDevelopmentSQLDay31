@@ -23,3 +23,7 @@ DELETE FROM Address_Book WHERE fName='Prakash';
 
 UC6
 select fName from Address_Book where state='CG' and city='BSP';
+
+UC7
+SELECT city, LENGTH(city) AS LengthOfName FROM Address_Book;
+SELECT state, LENGTH(state) AS LengthOfName FROM Address_Book;
