@@ -32,3 +32,7 @@ UC8
 SELECT fName from Address_Book ORDER BY city ASC;
 
 UC9
+alter table Address_Book add type varchar(10) after email;
+
+UC10
+select phoneNumber from Address_Book where type='family';
