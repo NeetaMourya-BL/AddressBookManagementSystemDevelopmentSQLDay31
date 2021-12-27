@@ -15,3 +15,4 @@ select fName from Address_Book where state='CG' and city='BSP';
 SELECT city, LENGTH(city) AS LengthOfName FROM Address_Book;
 SELECT state, LENGTH(state) AS LengthOfName FROM Address_Book;
 SELECT fName from Address_Book ORDER BY city ASC;
+alter table Address_Book add type varchar(10) after email;

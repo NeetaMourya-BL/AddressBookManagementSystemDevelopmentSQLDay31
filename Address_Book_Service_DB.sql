@@ -30,3 +30,5 @@ SELECT state, LENGTH(state) AS LengthOfName FROM Address_Book;
 
 UC8
 SELECT fName from Address_Book ORDER BY city ASC;
+
+UC9
