@@ -20,3 +20,6 @@ UPDATE Address_Book SET fName = 'Neetu', City= 'BSP' WHERE fName = 'Neeta';
 
 UC5
 DELETE FROM Address_Book WHERE fName='Prakash';
+
+UC6
+select fName from Address_Book where state='CG' and city='BSP';
